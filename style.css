@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Bhai";
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.sectionOne {
+    height: 100vh;
+    background-color: white;
+}
+.sectionOneHeading{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    text-align: center;
+    display: block;
+    color: black;
+    font-size: 10vh;
+    text-decoration: none;
+    letter-spacing: 2vh;
+}
+.inputBox {
+    display: block;
+    height: 5vh;
+    width: 40vh;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5vh;
+    font-size: 3vh;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+}
+.buttonSearch{
+    padding-top: 2vh;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sectionTwo{
+    background-color: black;
+    height: 100vh;
+}
+.topArrow{
+    font-family: Courier;
+    color: white;
+    cursor: pointer;
+    font-size: 6vh;
+    position: relative;
+    bottom: auto;
+    right: 0;
+    text-align: right;
+    display: block;
+    padding-right: 5vh;
+}
+.citiesTable{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+
+}
+.deleteHistory{
+    color: white;
+    cursor: pointer;
+    font-size: 1.5vh;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    text-align: left;
+    display: block;
+    padding-left: 3vh;
+}
+.sectionTwoHeading{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 6vh;
+    text-decoration: none;
+    letter-spacing: 2vh;
+}

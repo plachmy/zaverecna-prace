@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js/style.css">
+    <title>Počasí</title>
+</head>
+<body>
+    <div class="sectionOne">
+        <h1 class="sectionOneHeading">POČASÍ</h1>
+        <input type="text" id="inputCity" class="inputBox">
+        <a class="buttonSearch" onclick="searchCityByName()">Hledat</a>
+    </div>
+    <div class="sectionTwo">
+        <h class="sectionTwoHeading">Historie</h>
+        <div id="cities" class="citiesTable"></div>
+        <p class="deleteHistory" onclick="deleteHistory()">Vymazat</br>historii</p>
+        <p class="topArrow" onclick="scrollToTop()">^</p>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+<script src="./js/main.js"></script>
+</html>
